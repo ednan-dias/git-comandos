@@ -6,7 +6,7 @@
 
 **Conectar ao repositório remoto (GitHub):** `git remote add origin (Url do repositório)` <br>
 
-**(Primeiro Push) Colocar arquivos no repositório remoto:** `git push -u origin master` depois de realizar o primeiro commit, pode usar apenas `git push` <br>
+**(Primeiro Push) Colocar arquivos no repositório remoto:** `git push -u origin master` depois de realizar o primeiro push, pode usar apenas `git push` <br>
 
 ***
 
