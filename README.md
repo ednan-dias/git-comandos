@@ -1,5 +1,7 @@
 # Comandos básicos sobre Git
 
+![2color-lightbg@2x](https://user-images.githubusercontent.com/62631162/84719635-3f283480-af52-11ea-8ba2-280851916251.png)
+
 ## Inicializar repositório local e conectar ao repositório remoto:
 
 * **Inicializar repositório local:** `git init` <br>
@@ -67,13 +69,3 @@
 * **Recuperar arquivo deletado que tenha algum ponto na história:** `git checkout (Código do commit) -- (Nome do arquivo)` <br>
 
 *Por Ednan Dias, em 15/06/2020*
-
-
-
-
-
-
-
-
-
-
