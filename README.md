@@ -2,24 +2,23 @@
 
 ## Inicializar repositório local e conectar ao repositório remoto:
 
-**Inicializar repositório local:** `git init` <br>
+* **Inicializar repositório local:** `git init` <br>
 
-**Conectar ao repositório remoto (GitHub):** `git remote add origin (Url do repositório)` <br>
+* **Conectar ao repositório remoto (GitHub):** `git remote add origin (Url do repositório)` <br>
 
-**(Primeiro Push) Colocar arquivos no repositório remoto:** `git push -u origin master` depois de realizar o primeiro push, pode usar apenas `git push` <br>
+* **(Primeiro Push) Colocar arquivos no repositório remoto:** `git push -u origin master` depois de realizar o primeiro push, pode usar apenas `git push` <br>
 
 ***
 
 ## Adicionando arquivos e realizando commits
 
-**Adicionar arquivo ao repositório local:** `git add (Nome do arquivo)` <br>
+* **Adicionar arquivo ao repositório local:** `git add (Nome do arquivo)` <br>
 
-**Adicionar todos os arquivos na pasta ao repositório local:** `git add .` <br>
+* **Adicionar todos os arquivos na pasta ao repositório local:** `git add .` <br>
 
-**Adicionar commit (pontos na história):** `git commit -m "Sua mensagem aqui"` <br>
+* **Adicionar commit (pontos na história):** `git commit -m "Sua mensagem aqui"` <br>
 
-**Adicionar arquivo ao repositório local e commitar ao mesmo tempo:** `git commit -am "Sua mensagem aqui"` <br>
-
+***Adicionar arquivo ao repositório local e commitar ao mesmo tempo:** `git commit -am "Sua mensagem aqui"` <br>
 
 ***
 
