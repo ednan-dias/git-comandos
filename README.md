@@ -2,6 +2,8 @@
 
 **Inicializar repositório local:** `git init` <br>
 
+**Conectar ao repositório remoto (GitHub):** `git remote add origin (Url do repositório)` <br>
+
 **Adicionar arquivo ao repositório local:** `git add (Nome do arquivo)` <br>
 
 **Adicionar todos os arquivos na pasta ao repositório local:** `git add .` <br>
@@ -19,6 +21,22 @@
 **Ver ultímo ponto da história (commit):** `git show` <br>
 
 **Ver ponto da história específico:** `git show (Código do commit)` <br>
+
+**Criar uma branch (Para que você possa criar novas funcionalidades no seu projeto, sem desmanchar a branch master:** `git branch (Nome da branch)` <br>
+
+**Mudar de branch:** `git checkout (Nome da branch)` <br>
+
+**Ver todas as branchs:** `git branch` <br>
+
+**Unir pontos da história de outras branchs para a branch master:** `git merge (Nome da branch)` <br>
+
+**Excluir branch:** `git branch -d (Nome da branch)` <br>
+
+**Ver repositórios:** `git remote -v` <br>
+
+**Colocar arquivos no repositório remoto (Primeiro Push):** `git push -u origin master` depois de realizar o primeiro commit, pode usar apenas `git push` <br>
+
+
 
 
 
