@@ -4,6 +4,8 @@
 
 **Conectar ao repositório remoto (GitHub):** `git remote add origin (Url do repositório)` <br>
 
+**Colocar arquivos no repositório remoto (Primeiro Push):** `git push -u origin master` depois de realizar o primeiro commit, pode usar apenas `git push` <br>
+
 **Adicionar arquivo ao repositório local:** `git add (Nome do arquivo)` <br>
 
 **Adicionar todos os arquivos na pasta ao repositório local:** `git add .` <br>
@@ -34,7 +36,15 @@
 
 **Ver repositórios:** `git remote -v` <br>
 
-**Colocar arquivos no repositório remoto (Primeiro Push):** `git push -u origin master` depois de realizar o primeiro commit, pode usar apenas `git push` <br>
+**Clonar repositório:** `git clone (Url do repositório)` <br>
+
+**Criar branch e já mudar pra ela:** `git checkout -b (Nome da branch)` <br>
+
+**Puxar alterações do repositório remoto para o seu repositório local:** `git pull` <br>
+
+**Criar :** `git checkout -b (Nome da branch)` <br>
+
+
 
 
 
