@@ -18,54 +18,55 @@
 
 * **Adicionar commit (pontos na história):** `git commit -m "Sua mensagem aqui"` <br>
 
-***Adicionar arquivo ao repositório local e commitar ao mesmo tempo:** `git commit -am "Sua mensagem aqui"` <br>
+* **Adicionar arquivo ao repositório local e commitar ao mesmo tempo:** `git commit -am "Sua mensagem aqui"` <br>
 
 ***
 
 ## Git Log, Status, Show
 
-**Ver informações sobre seu projeto (Como por exemplo a Branch que você está e avisos sobre aquivos modificados ou excluídos):** `git status` <br>
+* **Ver informações sobre seu projeto (Como por exemplo a Branch que você está e avisos sobre aquivos modificados ou excluídos):** `git status` <br>
 
-**Ver pontos da história (commits):** `git log` <br>
+* **Ver pontos da história (commits):** `git log` <br>
 
-**Ver ultímo ponto da história (commit):** `git show` <br>
+* **Ver ultímo ponto da história (commit):** `git show` <br>
 
-**Ver ponto da história específico:** `git show (Código do commit)` <br>
+* **Ver ponto da história específico:** `git show (Código do commit)` <br>
 
 ***
 
 ## Branchs
 
-**Criar uma branch (Para que você possa criar novas funcionalidades no seu projeto, sem desmanchar as alterações da branch master:** `git branch (Nome da branch)` <br>
+* **Criar uma branch (Para que você possa criar novas funcionalidades no seu projeto, sem desmanchar as alterações da branch master:** `git branch (Nome da branch)` <br>
 
-**Mudar de branch:** `git checkout (Nome da branch)` <br>
+* **Mudar de branch:** `git checkout (Nome da branch)` <br>
 
-**Criar branch e já mudar pra ela:** `git checkout -b (Nome da branch)` <br>
+* **Criar branch e já mudar pra ela:** `git checkout -b (Nome da branch)` <br>
 
-**Ver todas as branchs:** `git branch` <br>
+* **Ver todas as branchs:** `git branch` <br>
 
-**Unir pontos da história de outras branchs para a branch master:** `git merge (Nome da branch)` <br>
+* **Unir pontos da história de outras branchs para a branch master:** `git merge (Nome da branch)` <br>
 
-**Excluir branch:** `git branch -d (Nome da branch)` <br>
+* **Excluir branch:** `git branch -d (Nome da branch)` <br>
 
 ***
 
 ## Repositórios
 
-**Ver repositórios:** `git remote -v` <br>
+* **Ver repositórios:** `git remote -v` <br>
 
-**Clonar repositório:** `git clone (Url do repositório)` <br>
+* **Clonar repositório:** `git clone (Url do repositório)` <br>
 
-**Puxar alterações do repositório remoto para o seu repositório local:** `git pull` <br>
+* **Puxar alterações do repositório remoto para o seu repositório local:** `git pull` <br>
 
 ***
 
 ## Recuperar arquivos
 
-**Recuperar arquivo deletado que você não criou ponto na história:** `git checkout -- (Nome do arquivo)` <br>
+* **Recuperar arquivo deletado que você não criou ponto na história:** `git checkout -- (Nome do arquivo)` <br>
 
-**Recuperar arquivo deletado que tenha algum ponto na história:** `git checkout (Código do commit) -- (Nome do arquivo)` <br>
+* **Recuperar arquivo deletado que tenha algum ponto na história:** `git checkout (Código do commit) -- (Nome do arquivo)` <br>
 
+*Por Ednan Dias, em 15/06/2020*
 
 
 
