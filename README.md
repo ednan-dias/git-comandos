@@ -37,7 +37,7 @@
 
 ## Branchs
 
-**Criar uma branch (Para que você possa criar novas funcionalidades no seu projeto, sem desmanchar a branch master:** `git branch (Nome da branch)` <br>
+**Criar uma branch (Para que você possa criar novas funcionalidades no seu projeto, sem desmanchar as alterações da branch master:** `git branch (Nome da branch)` <br>
 
 **Mudar de branch:** `git checkout (Nome da branch)` <br>
 
