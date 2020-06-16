@@ -1,10 +1,16 @@
 # Comandos básicos sobre Git
 
+## Inicializar repositório local e conectar ao repositório remoto:
+
 **Inicializar repositório local:** `git init` <br>
 
 **Conectar ao repositório remoto (GitHub):** `git remote add origin (Url do repositório)` <br>
 
-**Colocar arquivos no repositório remoto (Primeiro Push):** `git push -u origin master` depois de realizar o primeiro commit, pode usar apenas `git push` <br>
+**(Primeiro Push) Colocar arquivos no repositório remoto:** `git push -u origin master` depois de realizar o primeiro commit, pode usar apenas `git push` <br>
+
+***
+
+## Adicionando arquivos e realizando commits
 
 **Adicionar arquivo ao repositório local:** `git add (Nome do arquivo)` <br>
 
@@ -12,21 +18,30 @@
 
 **Adicionar commit (pontos na história):** `git commit -m "Sua mensagem aqui"` <br>
 
-**Adicionar ao repositório local e commitar ao mesmo tempo:** `git commit -am "Sua mensagem aqui"` <br>
+**Adicionar arquivo ao repositório local e commitar ao mesmo tempo:** `git commit -am "Sua mensagem aqui"` <br>
 
-**Adicionar commit (pontos na história):** `git commit -m "Sua mensagem aqui"` <br>
 
-**Ver pontos da história (commits):** `git log` <br>
+***
+
+## Git Log, Status, Show
 
 **Ver informações sobre seu projeto (Como por exemplo a Branch que você está e avisos sobre aquivos modificados ou excluídos):** `git status` <br>
+
+**Ver pontos da história (commits):** `git log` <br>
 
 **Ver ultímo ponto da história (commit):** `git show` <br>
 
 **Ver ponto da história específico:** `git show (Código do commit)` <br>
 
+***
+
+## Branchs
+
 **Criar uma branch (Para que você possa criar novas funcionalidades no seu projeto, sem desmanchar a branch master:** `git branch (Nome da branch)` <br>
 
 **Mudar de branch:** `git checkout (Nome da branch)` <br>
+
+**Criar branch e já mudar pra ela:** `git checkout -b (Nome da branch)` <br>
 
 **Ver todas as branchs:** `git branch` <br>
 
@@ -34,15 +49,24 @@
 
 **Excluir branch:** `git branch -d (Nome da branch)` <br>
 
+***
+
+## Repositórios
+
 **Ver repositórios:** `git remote -v` <br>
 
 **Clonar repositório:** `git clone (Url do repositório)` <br>
 
-**Criar branch e já mudar pra ela:** `git checkout -b (Nome da branch)` <br>
-
 **Puxar alterações do repositório remoto para o seu repositório local:** `git pull` <br>
 
-**Criar :** `git checkout -b (Nome da branch)` <br>
+***
+
+## Recuperar arquivos
+
+**Recuperar arquivo deletado que você não criou ponto na história:** `git checkout -- (Nome do arquivo)` <br>
+
+**Recuperar arquivo deletado que tenha algum ponto na história:** `git checkout (Código do commit) -- (Nome do arquivo)` <br>
+
 
 
 
