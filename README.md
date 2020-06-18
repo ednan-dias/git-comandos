@@ -68,4 +68,8 @@
 
 * **Recuperar arquivo deletado que tenha algum ponto na história:** `git checkout (Código do commit) -- (Nome do arquivo)` <br>
 
+## Transferir alterações na stage de uma branch para outra
+* **Retirar alterações do branch atual** `git stash sabe (nome descritivo)` <BR>
+* **Mudar de branch:** `git checkout (Nome da branch)` <br>
+* **Colocar alterações no branch atual:** `git stash pop` <br>
 *Por Ednan Dias, em 15/06/2020*
