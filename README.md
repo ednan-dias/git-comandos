@@ -1,6 +1,6 @@
-# Comandos básicos sobre Git
 
-![2color-lightbg@2x](https://user-images.githubusercontent.com/62631162/84719635-3f283480-af52-11ea-8ba2-280851916251.png)
+![git-comandos](https://user-images.githubusercontent.com/62631162/87855084-5c06ad80-c8ec-11ea-8deb-b6f51e8bb29a.jpg)
+
 
 ## Inicializar repositório local e conectar ao repositório remoto:
 
